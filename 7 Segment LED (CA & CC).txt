@@ -1,0 +1,12 @@
+Common Cathode 7 segment 
+** each led connect to the ground
+** logic 1 provided becuase high voltage need
+** common negetive terminal
+**
+
+
+Common Anode 7 segment Led
+
+**each led connect to the power/vcc
+** logic 0 provided because low voltage needed
+** common positive terminal
