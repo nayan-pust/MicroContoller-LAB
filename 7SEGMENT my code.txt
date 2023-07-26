@@ -20,3 +20,46 @@ int i;
  }
 
 }
+
+**************Button Use 7 segment Incriment Decrment LED CODE common ANODE*************
+
+char arrayCA[]={0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90};
+void main() 
+
+{
+int i=0;
+TRISD=0xff;
+TRISC=0x00;
+portc=0x00;
+
+
+while(1)
+
+{
+if(portd.f0==0x00)
+{
+ delay_ms(200);
+   if(portd.f0==0x00)
+   {
+     if(i<9)
+     i++;
+   }
+
+}
+if(portd.f1==0x00)
+{
+delay_ms(200);
+if(portd.f1==0x00)
+{
+  if(i!=0)
+  i--;
+}
+
+}
+portc=arrayCA[i];
+
+
+}
+
+}
+*******END******* 
