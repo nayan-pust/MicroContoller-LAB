@@ -1,0 +1,6 @@
+[PROJECTS]
+Count=2
+Project0=..\Increment Decrmnt by button & seg\IncrimentDecriment7seg.mcppi
+Project1=twodigtseg.mcppi
+[ActiveProject]
+Index=1
